@@ -6,7 +6,7 @@ const MyFreeChat = () => {
   return (
     <div className="hero">
         <div className="card bg-dark text-white image_home">
-            <img className="welcome"/>
+            <img className="welcome" alt=""/>
         <div className="card-img-overlay d-flex flex-column justify-content-center">
 
             <div className="container">
