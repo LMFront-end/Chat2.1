@@ -7,6 +7,8 @@ import {Nabvar} from '../src/components/Nabvar';
 // pages
 import { MyFreeChat } from './pages/MyFreeChat'
 import { Home } from '../src/pages/Home'
+import { Register } from '../src/pages/Register'
+import { Login } from '../src/pages/Login'
 
 function App() {
   return (
@@ -17,7 +19,9 @@ function App() {
 
         <Route path={"/"} exact element={<MyFreeChat />}/>
         <Route path={"/home"} exact element={<Home />}/>
-        {/* <Route path={"/messenger"} exact element={<Messages/>}/> */}
+        <Route path={"/register"} exact element={<Register />}/>
+        <Route path={"/login"} exact element={<Login />}/>
+        
 
 
       </Routes>

@@ -8,13 +8,13 @@ const ContentHome = () => {
         <ul>
           <li>
             <a href="#">
-              <img src="assets/profile.png" alt="profile" />
+              <img src={require("../assets/profile.png")} alt="profile" />
               <span></span>
             </a>
           </li>
           <li>
             <a href="#">
-              <img src="assets/covid.png" alt="covid" />
+              <img src={require("../assets/covid.png")} alt="covid" />
               <span>COVID-19 Information Center</span>
             </a>
           </li>
