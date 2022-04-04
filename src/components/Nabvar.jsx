@@ -1,10 +1,10 @@
 import React, {useContext} from 'react'
 import { Link } from 'react-router-dom'
-import { auth, db } from '../../data/configFirebase.js'
+import { auth, db } from '../data/ConfigFirebase'
 import { signOut } from 'firebase/auth'
 import { updateDoc, doc } from 'firebase/firestore'
 import { AuthContext } from '../context/auth'
-import { useNavigate } from 'react-router-dom';
+
 
 const Nabvar = () => {
 
@@ -17,7 +17,6 @@ const Nabvar = () => {
         await signOut(auth);
     }
 
-    const history = useNavigate();
 
   return (
     <div>

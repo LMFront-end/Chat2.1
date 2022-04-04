@@ -10,9 +10,9 @@ import '../node_modules/font-awesome/css/font-awesome.min.css';
 // react icons
 import '../node_modules/react-icons/fa';
 
-import {BrowserRouter, Route, Routes} from '../node_modules/react-router-dom';
+import {BrowserRouter, Route, Routes} from 'react-router-dom';
 // provider
-import {AuthProvider} from './context/auth'
+import {AuthProvider} from '../src/context/auth'
 
 
 ReactDOM.render(
