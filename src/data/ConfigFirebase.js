@@ -5,12 +5,12 @@ import { getStorage } from 'firebase/storage'
 
 const firebaseConfig = {
     apiKey: process.env.REACT_APP_API_KEY,
-    authDomain: "myfreechat-36cb4.firebaseapp.com",
-    projectId: "myfreechat-36cb4",
-    storageBucket: "myfreechat-36cb4.appspot.com",
-    databaseURL: "http://myfreechat-36cb4.firebaseio.com",
-    messagingSenderId: "166020739834",
-    appId: "1:166020739834:web:5e020134530b77f3618f43"
+    authDomain: process.env.REACT_APP_AUTH_DOMAIN,
+    projectId: process.env.REACT_APP_PROJECT_ID,
+    storageBucket: process.env.REACT_APP_STORAGE_BUCKET,
+    databaseURL: process.env.REACT_APP_DATA_BASE_URL,
+    messagingSenderId: process.env.REACT_APP_MESSAGING_SENDER_ID,
+    appId: process.env.REACT_APP_ID
 };
 
 // Initialize Firebase
