@@ -678,7 +678,6 @@ section .form {
     border-right: 2px solid #f7d794;
     overflow-y: auto;
     overflow-x: none;
-    margin-left: 15px;
 }
 
 .user_wrapper {
