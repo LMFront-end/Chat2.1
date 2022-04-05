@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-sparse-arrays
 const contactsData = [
 
     {
