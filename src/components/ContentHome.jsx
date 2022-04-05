@@ -9,7 +9,7 @@ const ContentHome = () => {
           <li>
             <a href="#">
               <img src={require("../assets/profile.png")} alt="profile" />
-              <span></span>
+              <span>Your page</span>
             </a>
           </li>
           <li>
@@ -20,40 +20,40 @@ const ContentHome = () => {
           </li>
           <li>
             <a href="#">
-              <img src="assets/friends.png" alt="friends" />
+              <img src={require("../assets/friends.png")} alt="friends" />
               <span>Friends</span>
             </a>
           </li>
           <li>
             <a href="#">
-              <img src="assets/groups.png" alt="groups" /> <span>Groups</span>
+              <img src={require("../assets/groups.png")} alt="groups" /> <span>Groups</span>
             </a>
           </li>
           <li>
             <a href="#">
-              <img src="assets/marketplace.png" alt="marketplace" />
+              <img src={require("../assets/marketplace.png")} alt="marketplace" />
               <span>Marketplace</span>
             </a>
           </li>
           <li>
             <a href="#">
-              <img src="assets/videos.png" alt="videos" /> <span>Videos</span>
+              <img src={require("../assets/videos.png")} alt="videos" /> <span>Videos</span>
             </a>
           </li>
           <li>
             <a href="#">
-              <img src="assets/events.png" alt="events" /> <span>Events</span>
+              <img src={require("../assets/events.png")} alt="events" /> <span>Events</span>
             </a>
           </li>
           <li>
             <a href="#">
-              <img src="assets/memories.png" alt="memories" />
+              <img src={require("../assets/memories.png")} alt="memories" />
               <span>Memories</span>
             </a>
           </li>
           <li>
             <a href="#">
-              <img src="assets/saved.png" alt="saved" /> <span>Saved</span>
+              <img src={require("../assets/saved.png" )}alt="saved" /> <span>Saved</span>
             </a>
           </li>
 
@@ -65,22 +65,14 @@ const ContentHome = () => {
           <h3 className="shortcut_title">Your shortcuts</h3>
           <div className="shortcuts_wrapper">
             <a href="#">
-              <img src="assets/shortcuts.jpg" alt="shortcuts" />
+              <img src={require("../assets/shortcuts.jpg" )}alt="shortcuts" />
               <span>Lorem impsu</span>
             </a>
           </div>
 
           <div className="shortcuts_wrapper">
             <a href="#">
-              <img src="../../assets/fabrica.png" alt="shortcuts" />
-              <span>Lorem impsu</span>
-            </a>
-          </div>
-
-          
-          <div className="shortcuts_wrapper">
-            <a href="#">
-              <img src="../../assets/juntos.png" alt="shortcuts" />
+              <img src={require("../assets/shortcuts.jpg" )}alt="shortcuts" />
               <span>Lorem impsu</span>
             </a>
           </div>
@@ -88,7 +80,15 @@ const ContentHome = () => {
           
           <div className="shortcuts_wrapper">
             <a href="#">
-              <img src="../../assets/paleta.png" alt="shortcuts" />
+              <img src={require("../assets/shortcuts.jpg" )} alt="shortcuts" />
+              <span>Lorem impsu</span>
+            </a>
+          </div>
+
+          
+          <div className="shortcuts_wrapper">
+            <a href="#">
+              <img src={require("../assets/shortcuts.jpg" )}alt="shortcuts" />
               <span>Lorem impsu</span>
             </a>
           </div>
@@ -96,14 +96,14 @@ const ContentHome = () => {
           <h3 className="shortcut_title">Games</h3>
           <div className="shortcuts_wrapper">
             <a href="#">
-              <img src="../../assets/mando.png" alt="shortcuts" />
+              <img src={require("../assets/mando.png")} alt="shortcuts" />
               <span>Game #1</span>
             </a>
           </div>
 
           <div className="shortcuts_wrapper">
             <a href="#">
-              <img src="../../assets/videojuego.png" alt="shortcuts" />
+              <img src={require("../assets/videojuego.png")} alt="shortcuts" />
               <span>Game #2</span>
             </a>
           </div>
@@ -111,14 +111,14 @@ const ContentHome = () => {
           <h3 className="shortcut_title">Events</h3>
           <div className="shortcuts_wrapper">
             <a href="#">
-              <img src="../../assets/100.png" alt="shortcuts" />
+              <img src={require("../assets/100.png")} alt="shortcuts" />
               <span>Event #1</span>
             </a>
           </div>
 
           <div className="shortcuts_wrapper">
             <a href="#">
-              <img src="../../assets/fiesta.png" alt="shortcuts" />
+              <img src={require("../assets/fiesta.png" )}alt="shortcuts" />
               <span>Event #2</span>
             </a>
           </div>
@@ -137,7 +137,7 @@ const ContentHome = () => {
         <div className="media_container">
           <div className="share">
             <div className="share_upSide">
-              <img src="assets/profile.png" alt="profile" />
+              <img src={require("../assets/profile.png") }alt="profile" />
               <input type="text" placeholder="What's on your mind, Ogeday?" />
             </div>
             <hr />
@@ -160,7 +160,7 @@ const ContentHome = () => {
           
           <div className="news_feed">
             <div className="news_feed_title">
-              <img src="assets/user.png" alt="user" />
+              <img src={require("../assets/user.png")} alt="user" />
               <div className="news_feed_title_content">
                 <p>Codersbite Magazine</p>
                 <span>12h . <i className="fas fa-globe-americas"></i></span>
@@ -172,7 +172,7 @@ const ContentHome = () => {
                 esse cum id vero odit tempora dicta. Saepe corporis voluptatibus
                 laboriosam?
               </p>
-              <img src="assets/sunflower.jpg" alt="sunflower" />
+              <img src={require("../assets/sunflower.jpg")} alt="sunflower" />
               <div className="news_feed_description_title">
                 <span>YOUTUBE / CODERSBITE</span>
                 <p>
@@ -186,9 +186,9 @@ const ContentHome = () => {
 
             <div className="likes_area">
               <div className="emojis">
-                <img src="assets/emoji_like.png" alt="like" />
-                <img src="assets/emoji_surprised.png" alt="surprised" />
-                <img src="assets/emoji_angry.png" alt="angry" />
+                <img src={require("../assets/emoji_like.png")} alt="like" />
+                <img src={require("../assets/emoji_surprised.png") }alt="surprised" />
+                <img src={require("../assets/emoji_angry.png" )}alt="angry" />
                 <span>25</span>
               </div>
               <div className="comment_counts">
@@ -228,7 +228,7 @@ const ContentHome = () => {
               <a href="#">
                 <img
                   className="your_page_logo"
-                  src="../../assets/darkTheme.png"
+                  src={require("../assets/darkTheme.png")}
                   alt="codersbite"
                 />
                 <span>LinaDev14</span>
@@ -254,7 +254,7 @@ const ContentHome = () => {
           <ul>
             <li>
               <a href="#">
-                <img src="assets/gift-box.png" alt="gift-box" />
+                <img src={require("../assets/gift-box.png") }alt="gift-box" />
                 <span>Jary Garson's birthday is today</span>
               </a>
             </li>
@@ -270,86 +270,92 @@ const ContentHome = () => {
           <ul>
             <li>
               <a href="#">
-                <img src="assets/avatar1.png" alt="user" />
+                <img src={require("../assets/avatar1.png" )} alt="user" />
                 <span>John Doe</span>
               </a>
             </li>
             <li>
               <a href="#">
-                <img src="assets/avatar2.png" alt="user" />
+                <img src={require("../assets/avatar2.png")} alt="user" />
                 <span>Zorah Makey</span>
               </a>
             </li>
             <li>
               <a href="#">
-                <img src="assets/avatar5.png" alt="user" />
+                <img src={require ("../assets/avatar5.png" ) }alt="user" />
                 <span>Kero Janre</span>
               </a>
             </li>
             <li>
               <a href="#">
-                <img src="assets/avatar3.png" alt="user" />
+                <img src={require("../assets/avatar3.png")} alt="user" />
                 <span>Ube Yuri</span>
               </a>
             </li>
             <li>
               <a href="#">
-                <img src="assets/avatar4.png" alt="user" />
+                <img src={require("../assets/avatar4.png")} alt="user" />
                 <span>Hosaa Mora</span>
               </a>
             </li>
             <li>
             <a href="#">
-                <img src="assets/avatar2.png" alt="user" />
+                <img src={require("../assets/avatar2.png")} alt="user" />
                 <span>Zorah Makey</span>
               </a>
             </li>
             <li>
               <a href="#">
-                <img src="assets/avatar5.png" alt="user" />
+                <img src={require("../assets/avatar5.png")} alt="user" />
                 <span>Kero Janre</span>
               </a>
             </li>
             <li>
               <a href="#">
-                <img src="assets/avatar3.png" alt="user" />
+                <img src={require("../assets/avatar3.png")} alt="user" />
                 <span>Ube Yuri</span>
               </a>
             </li>
             <li>
               <a href="#">
-                <img src="assets/avatar5.png" alt="user" />
-                <span>Kero Janre</span>
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <img src="assets/avatar3.png" alt="user" />
-                <span>Ube Yuri</span>
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <img src="assets/avatar4.png" alt="user" />
+                <img src={require("../assets/avatar4.png")} alt="user" />
                 <span>Hosaa Mora</span>
               </a>
             </li>
             <li>
+            <a href="#">
+                <img src={require("../assets/avatar2.png")} alt="user" />
+                <span>Zorah Makey</span>
+              </a>
+            </li>
+            <li>
               <a href="#">
-                <img src="assets/avatar5.png" alt="user" />
+                <img src={require("../assets/avatar5.png")} alt="user" />
                 <span>Kero Janre</span>
               </a>
             </li>
             <li>
               <a href="#">
-                <img src="assets/avatar3.png" alt="user" />
+                <img src={require("../assets/avatar3.png")} alt="user" />
                 <span>Ube Yuri</span>
               </a>
             </li>
             <li>
               <a href="#">
-                <img src="assets/avatar4.png" alt="user" />
+                <img src={require("../assets/avatar4.png")} alt="user" />
                 <span>Hosaa Mora</span>
+              </a>
+            </li>
+            <li>
+            <a href="#">
+                <img src={require("../assets/avatar2.png")} alt="user" />
+                <span>Zorah Makey</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src={require("../assets/avatar5.png")} alt="user" />
+                <span>Kero Janre</span>
               </a>
             </li>
           </ul>
