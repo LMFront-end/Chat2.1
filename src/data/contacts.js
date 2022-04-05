@@ -31,7 +31,7 @@ const contactsData = [
     {
         slug: 4,
         name: "Juliana Valencia",
-        photo: "../assets/avatar5.png",
+        photo: require("../assets/avatar5.png"),
         description: "Para dejar de hacer lo que no quieres, necesitas saber lo que quieres.",
         contacts: 2400,
         country: "Chile",
@@ -40,7 +40,7 @@ const contactsData = [
     {
         slug: 5,
         name: "Betty",
-        photo: "../assets/avatar5.png",
+        photo: require("../assets/avatar5.png"),
         description: "No ganes el mundo y pierdas tu alma, la sabiduría es mejor que la plata o el oro.",
         contacts: 4850,
         country: "Panama",
@@ -49,7 +49,7 @@ const contactsData = [
     {
         slug: 6,
         name: "Alejandro Guerrero",
-        photo: "../assets/avatar2.png",
+        photo: require("../assets/avatar2.png"),
         description: "La verdad de hoy es la herejía de mañana.",
         contacts: 1695,
         country: "Colombia",
@@ -58,7 +58,7 @@ const contactsData = [
     {
         slug: 7,
         name: "Pedro",
-        photo: "../assets/avatar1.png",
+        photo: require("../assets/avatar1.png"),
         description: "El valor intrínseco de la vida depende de la conciencia y del poder de contemplación, no de la mera supervivencia.",
         contacts: 4859,
         country: "Mexico",
@@ -67,7 +67,7 @@ const contactsData = [
     {
         slug: 8,
         name: "Alice V",
-        photo: "../assets/avatar4.png",
+        photo: require("../assets/avatar4.png"),
         description: "Cualquier tonto puede saber. La clave está en entender.",
         contacts: 1589,
         country: "Estados Unidos",
@@ -76,7 +76,7 @@ const contactsData = [
     {
         slug: 9,
         name: "Lina Maria",
-        photo: "../assets/avatar4.png",
+        photo: require("../assets/avatar4.png"),
         description: "Ayer estaba listo, así que quería cambiar el mundo. Hoy soy sabio, por lo que me estoy cambiando mí mismo.",
         contacts: 5000,
         country: "Canada",
@@ -85,7 +85,7 @@ const contactsData = [
     {
         slug: 10,
         name: "Camilo P",
-        photo: "../assets/avatar2.png",
+        photo: require("../assets/avatar2.png"),
         description: "Sabio? No, simplemente aprendí a pensar. Christopher Paolini",
         contacts: 500,
         country: "Colombia",
@@ -94,7 +94,7 @@ const contactsData = [
     {
         slug: 11,
         name: "Juliana Valencia",
-        photo: "../assets/avatar5.png",
+        photo: require("../assets/avatar5.png"),
         description: "Para dejar de hacer lo que no quieres, necesitas saber lo que quieres.",
         contacts: 2400,
         country: "Chile",
@@ -103,7 +103,7 @@ const contactsData = [
     {
         slug: 12,
         name: "Betty",
-        photo: "../assets/avatar5.png",
+        photo: require("../assets/avatar5.png"),
         description: "No ganes el mundo y pierdas tu alma, la sabiduría es mejor que la plata o el oro.",
         contacts: 4850,
         country: "Panama",
@@ -112,7 +112,7 @@ const contactsData = [
     {
         slug: 13,
         name: "Alejandro Guerrero",
-        photo: "../assets/avatar2.png",
+        photo: require("../assets/avatar2.png"),
         description: "La verdad de hoy es la herejía de mañana.",
         contacts: 1695,
         country: "Colombia",
@@ -121,7 +121,7 @@ const contactsData = [
     {
         slug: 14,
         name: "Pedro",
-        photo: "../assets/avatar1.png",
+        photo: require("../assets/avatar1.png"),
         description: "El valor intrínseco de la vida depende de la conciencia y del poder de contemplación, no de la mera supervivencia.",
         contacts: 4859,
         country: "Mexico",
@@ -130,7 +130,7 @@ const contactsData = [
     {
         slug: 15,
         name: "Alice V",
-        photo: "../assets/avatar4.png",
+        photo: require("../assets/avatar4.png"),
         description: "Cualquier tonto puede saber. La clave está en entender.",
         contacts: 1589,
         country: "Estados Unidos",
@@ -139,7 +139,7 @@ const contactsData = [
     {
         slug: 16,
         name: "Lina Maria",
-        photo: "../assets/avatar4.png",
+        photo: require("../assets/avatar4.png"),
         description: "Ayer estaba listo, así que quería cambiar el mundo. Hoy soy sabio, por lo que me estoy cambiando mí mismo.",
         contacts: 5000,
         country: "Canada",
@@ -148,7 +148,7 @@ const contactsData = [
     {
         slug: 17,
         name: "Camilo P",
-        photo: "../assets/avatar2.png",
+        photo: require("../assets/avatar2.png"),
         description: "Sabio? No, simplemente aprendí a pensar. Christopher Paolini",
         contacts: 500,
         country: "Colombia",
@@ -157,7 +157,7 @@ const contactsData = [
     {
         slug: 18,
         name: "Juliana Valencia",
-        photo: "../assets/avatar5.png",
+        photo: require("../assets/avatar5.png"),
         description: "Para dejar de hacer lo que no quieres, necesitas saber lo que quieres.",
         contacts: 2400,
         country: "Chile",
@@ -166,7 +166,7 @@ const contactsData = [
     {
         slug: 19,
         name: "Betty",
-        photo: "../assets/avatar5.png",
+        photo: require("../assets/avatar5.png"),
         description: "No ganes el mundo y pierdas tu alma, la sabiduría es mejor que la plata o el oro.",
         contacts: 4850,
         country: "Panama",
@@ -175,7 +175,7 @@ const contactsData = [
     {
         slug: 20,
         name: "Alejandro Guerrero",
-        photo: "../assets/avatar2.png",
+        photo: require("../assets/avatar2.png"),
         description: "La verdad de hoy es la herejía de mañana.",
         contacts: 1695,
         country: "Colombia",
@@ -184,7 +184,7 @@ const contactsData = [
     {
         slug: 21,
         name: "Pedro",
-        photo: "../assets/avatar1.png",
+        photo: require("../assets/avatar1.png"),
         description: "El valor intrínseco de la vida depende de la conciencia y del poder de contemplación, no de la mera supervivencia.",
         contacts: 4859,
         country: "Mexico",
@@ -193,7 +193,7 @@ const contactsData = [
     {
         slug: 22,
         name: "Alice V",
-        photo: "../assets/avatar4.png",
+        photo: require("../assets/avatar4.png"),
         description: "Cualquier tonto puede saber. La clave está en entender.",
         contacts: 1589,
         country: "Estados Unidos",
@@ -202,7 +202,7 @@ const contactsData = [
     {
         slug: 23,
         name: "Camilo P",
-        photo: "../assets/avatar2.png",
+        photo: require("../assets/avatar2.png"),
         description: "Sabio? No, simplemente aprendí a pensar. Christopher Paolini",
         contacts: 500,
         country: "Colombia",
@@ -211,7 +211,7 @@ const contactsData = [
     {
         slug: 24,
         name: "Juliana Valencia",
-        photo: "../assets/avatar5.png",
+        photo: require("../assets/avatar5.png"),
         description: "Para dejar de hacer lo que no quieres, necesitas saber lo que quieres.",
         contacts: 2400,
         country: "Chile",
@@ -220,7 +220,7 @@ const contactsData = [
     {
         slug: 25,
         name: "Betty",
-        photo: "../assets/avatar5.png",
+        photo: require("../assets/avatar5.png"),
         description: "No ganes el mundo y pierdas tu alma, la sabiduría es mejor que la plata o el oro.",
         contacts: 4850,
         country: "Panama",
@@ -229,7 +229,7 @@ const contactsData = [
     {
         slug: 26,
         name: "Camilo P",
-        photo: "../assets/avatar2.png",
+        photo: require("../assets/avatar2.png"),
         description: "Sabio? No, simplemente aprendí a pensar. Christopher Paolini",
         contacts: 500,
         country: "Colombia",
@@ -238,7 +238,7 @@ const contactsData = [
     {
         slug: 27,
         name: "Juliana Valencia",
-        photo: "../assets/avatar5.png",
+        photo: require("../assets/avatar5.png"),
         description: "Para dejar de hacer lo que no quieres, necesitas saber lo que quieres.",
         contacts: 2400,
         country: "Chile",
@@ -247,12 +247,30 @@ const contactsData = [
     {
         slug: 28,
         name: "Betty",
-        photo: "../assets/avatar5.png",
+        photo: require("../assets/avatar5.png"),
         description: "No ganes el mundo y pierdas tu alma, la sabiduría es mejor que la plata o el oro.",
         contacts: "4850",
         country: "Panama",
         followers: "1520",
-    }
+    },
+    {
+        slug: 20,
+        name: "Alejandro Guerrero",
+        photo: require("../assets/avatar2.png"),
+        description: "La verdad de hoy es la herejía de mañana.",
+        contacts: 1695,
+        country: "Colombia",
+        followers: 545,
+    },
+    {
+        slug: 21,
+        name: "Pedro",
+        photo: require("../assets/avatar1.png"),
+        description: "El valor intrínseco de la vida depende de la conciencia y del poder de contemplación, no de la mera supervivencia.",
+        contacts: 4859,
+        country: "Mexico",
+        followers: 1250,
+    },
 
 ]
 
