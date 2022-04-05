@@ -9,6 +9,7 @@ import { MyFreeChat } from './pages/MyFreeChat'
 import { Home } from '../src/pages/Home'
 import { Register } from '../src/pages/Register'
 import { Login } from '../src/pages/Login'
+import { Profile } from './pages/Profile'
 import { Contacts } from './pages/contact/Contacts'
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
         <Route path={"/home"} exact element={<Home />}/>
         <Route path={"/register"} exact element={<Register />}/>
         <Route path={"/login"} exact element={<Login />}/>
+        <Route path={"/profile"} exact element={<Profile/>}/>
         <Route path={"/contacts"} exact element={<Contacts/>}/>
         
 
