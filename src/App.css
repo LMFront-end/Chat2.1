@@ -674,15 +674,18 @@ section .form {
 }
 
 .users_container {
-    margin-top: 10px;
+    width: 300px;
     border-right: 2px solid #f7d794;
     overflow-y: auto;
+    overflow-x: none;
+    margin-left: 15px;
 }
 
 .user_wrapper {
     margin-bottom: 10px;
     padding: 10px;
     cursor: pointer;
+    color: #ffff;
 }
 
 .user_info {
@@ -698,13 +701,15 @@ section .form {
 
 .user_detail h4 {
     margin-left: 10px;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .avatar {
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    border: 1px solid #cf6a87;
+    border: 1px solid #28bbd2;
 }
 
 .user_status {
@@ -758,14 +763,15 @@ section .form {
     outline: none;
     border: none;
     margin-bottom: 27px;
-    margin-top: 10px;
+    margin-top: 15px;
+    background-color: #f6e58d;
 }
 
 .message_form .btn {
     margin-top: -10px;
     border: 2px solid #fff;
     color: #333;
-    background-color: #18dcff;
+    background-color: #fab1a0;
     margin-bottom: 20px;
     cursor: pointer;
     margin-top: 4px;
@@ -781,7 +787,8 @@ section .form {
 .message_form .btn:hover {
     transform: scale(1.1);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
-    background-color: #7efff5;
+    background-color: #897eff;
+    color: #fff;
 }
 
 .messages {
@@ -819,24 +826,28 @@ section .form {
 }
 
 .me {
-    background: #dff9fb;
-    color: white;
+    background: #81ecec;
+    color: #333;
+    margin-right: 20px;
 }
 
 .friend {
-    background: #7ed6df;
+    background: #ffeaa7;
+    margin-left: 10px;
+    color: #333;
 }
 
 .selected_user {
-    background: #95afc0;
+    background: #4ecfa8;
 }
 
 .truncate {
-    font-size: 14px;
+    font-size: 16px;
     white-space: nowrap;
     width: 90%;
     overflow: hidden;
     text-overflow: ellipsis;
+    margin-left: 60px;
 }
 
 .truncate strong {
@@ -1015,6 +1026,3 @@ a:hover:nth-child(5) {
     color: #16d6bd;
     text-shadow: 0 0 30px #16d6bd;
 }
-
-
-/* end footer*/
