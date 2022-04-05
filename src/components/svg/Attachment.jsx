@@ -9,6 +9,8 @@ const Attachment = () => {
         height: "25px",
         cursor: "pointer",
         color: "gray",
+        marginBottom: "20px"
+
       }}
       viewBox="0 0 20 20"
       fill="currentColor"

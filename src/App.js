@@ -11,6 +11,7 @@ import { Register } from '../src/pages/Register'
 import { Login } from '../src/pages/Login'
 import { Profile } from './pages/Profile'
 import { Contacts } from './pages/contact/Contacts'
+import { Messages } from './pages/Messages'
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         <Route path={"/login"} exact element={<Login />}/>
         <Route path={"/profile"} exact element={<Profile/>}/>
         <Route path={"/contacts"} exact element={<Contacts/>}/>
+        <Route path={"/messenger"} exact element={<Messages/>}/>
         
 
 

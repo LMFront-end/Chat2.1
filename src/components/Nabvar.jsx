@@ -25,8 +25,8 @@ const Nabvar = () => {
 
         <nav className="navbar navbar-expand-lg navbar-light bg-dark py-3 shadow-sm">
 
-            <div className="container">
-            <Link className="navbar-brand fw-bold fs-4" to="/">
+            <div className="container" style={{maxWidth:"100vw"}}>
+            <Link className="navbar-brand fw-bold fs-4" to="/" style={{marginLeft:"30px"}}>
                 MyFreeDevChat
             </Link>
 
@@ -65,20 +65,20 @@ const Nabvar = () => {
                         <i className="fa-solid fa-house"></i>
                         </Link>
 
-                        <Link to={"/contacts"} className="btn btn-outline-light ms-5">
+                        <Link to={"/contacts"} className="btn btn-outline-light ms-4">
                         <i className="fa-solid fa-users"></i>
                         </Link>
 
-                        <Link to={"/messenger"} className="btn btn-outline-light ms-5">
+                        <Link to={"/messenger"} className="btn btn-outline-light ms-4">
                         <i className="fa-solid fa-comments"></i>
                         </Link>
 
 
-                        <Link to={"/profile"} className="btn btn-outline-light ms-5">
+                        <Link to={"/profile"} className="btn btn-outline-light ms-4">
                         <i className="fa-solid fa-user"></i>
                         </Link>
 
-                        <button onClick={handleSignOut} className="btn btn-outline-light ms-4">
+                        <button onClick={handleSignOut} className="btn btn-outline-light ms-4" style={{marginRight: "20px"}}>
                         <i className="fa-solid fa-right-from-bracket"></i> Logout
                         </button>
                         </> 
