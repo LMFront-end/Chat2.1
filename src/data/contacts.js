@@ -4,7 +4,7 @@ const contactsData = [
     {
         slug: 1,
         name: "Santiago Vlad",
-        photo: "../assets/avatar1.png",
+        photo: require("../assets/avatar1.png"),
         description: "Conocerse a uno mismo es el principio de toda sabiduría.",
         contacts: 2099,
         country: "Alemania",
@@ -13,7 +13,7 @@ const contactsData = [
     {
         slug: 2,
         name: "Lina Maria",
-        photo: "../assets/avatar4.png",
+        photo: require("../assets/avatar4.png"),
         description: "Ayer estaba listo, así que quería cambiar el mundo. Hoy soy sabio, por lo que me estoy cambiando mí mismo.",
         contacts: 5000,
         country: "Canada",
@@ -22,7 +22,7 @@ const contactsData = [
     {
         slug: 3,
         name: "Camilo P",
-        photo: "../assets/avatar2.png",
+        photo: require("../assets/avatar2.png"),
         description: "Sabio? No, simplemente aprendí a pensar. Christopher Paolini",
         contacts: 500,
         country: "Colombia",

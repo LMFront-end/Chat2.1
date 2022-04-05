@@ -1,5 +1,5 @@
 import React from 'react'
-import {contactsData} from '../../../data/contacts'
+import {contactsData} from '../../data/contacts'
 import { ContactCard } from '../../components/contacts/ContactCard'
 import styles from './Contacts.module.css'
 
