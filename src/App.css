@@ -674,7 +674,7 @@ section .form {
 }
 
 .users_container {
-    width: 300px;
+    width: 350px;
     border-right: 2px solid #f7d794;
     overflow-y: auto;
     overflow-x: none;
@@ -696,6 +696,7 @@ section .form {
 .user_detail {
     display: flex;
     align-items: center;
+    margin-left: 10px;
 }
 
 .user_detail h4 {
@@ -864,6 +865,27 @@ section .form {
 .sm_screen {
     display: none;
 }
+
+
+/* .picker-container {
+    position: relative;
+    width: 300px;
+}
+
+.emoji-icon {
+    cursor: pointer;
+    position: absolute;
+    top: 8px;
+    right: 5px;
+}
+
+.input-style {
+    padding: 7px 30px 7px 10px;
+    width: calc(100% - 40px);
+    border-radius: 3px;
+    border: 1px solid #999;
+    margin-bottom: 10px;
+} */
 
 @media screen and (max-width: 767px) {
     .home_container {
